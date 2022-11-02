@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
-body{
+
+body {
     margin: 0px;
     padding: 10px;
     box-sizing: border-box;
-    font-family: 'poppins',serif;
+    font-family: 'poppins', serif;
     overflow: hidden;
+    min-width: 400px;
 }
-input
-{
-    padding:10px;
+
+input {
+    padding: 10px;
     font-size: 1rem;
-    font-family:'Poppins',sans-serif;
-    border:1px #5f9341 solid; 
+    font-family: 'Poppins', sans-serif;
+    border: 1px #5f9341 solid;
     font-weight: 600;
     width: 100%;
     box-sizing: border-box;
 }
-#btn-1
-{
+
+#btn-1 {
     padding: 10px 20px;
     margin-top: 10px;
     background-color: #5f9341;
@@ -26,19 +28,21 @@ input
     border: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-family:'Ubuntu',serif;
+    font-family: 'Ubuntu', serif;
 }
-ul{
+
+ul {
     margin-top: 20px;
     padding: 0px;
 }
-ul li
-{
+
+ul li {
     margin-top: 5px;
     list-style: none;
 }
-ul li a{
-    
+
+ul li a {
+
     padding: 4px;
     color: #5f9341;
     font-size: 1.5rem;
