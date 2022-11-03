@@ -1,7 +1,7 @@
 const i = document.getElementById("input");
 const b = document.getElementById("btn-1");
 const ul = document.getElementById("ulid");
-var link = [];
+var link = []
 b.onclick = function () {
     link.push(i.value);
     i.value = "";
@@ -9,7 +9,6 @@ b.onclick = function () {
     localStorage.setItem("links", JSON.stringify(link));
     p()
 }
-link = JSON.stringify(link);
 i.addEventListener("keydown", function (event) {
     //console.log(event.which);
     if (event.which === 13) {
