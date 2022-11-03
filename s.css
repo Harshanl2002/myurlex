@@ -31,6 +31,19 @@ input {
     font-family: 'Ubuntu', serif;
 }
 
+#Delete {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #5f9341;
+    font-size: 1em;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Ubuntu', serif;
+    border: 1px #5f9341 solid;
+}
+
 ul {
     margin-top: 20px;
     padding: 0px;
