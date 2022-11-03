@@ -7,6 +7,7 @@ b.onclick = function () {
     i.value = "";
     console.log(link);
     localStorage.setItem("links", JSON.stringify(link));
+    console.log(localStorage.getItem("links"))
     p()
 }
 i.addEventListener("keydown", function (event) {
